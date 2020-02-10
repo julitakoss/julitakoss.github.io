@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="work.css">
+    <meta charset="UTF-8">
+    <title>Zadanie domowe - Formularz HTML5</title>
+</head>
+
+<body>
+   
+    <!-- Zadanie domowe zrob z wykorzystaniem serwisu https://formspree.io -->
+        <form action="https://formspree.io/mrgqylbz" class="background" method="POST">
+            <label for="name" class="ball">Imię:</label><br>
+            <input type="text" name="name" class="name ball2">
+
+            <br>
+            <label for="lastname" class="ball"> Nazwisko:</label><br>
+            <input type="text" name="lastname" class="lastname ball2">
+
+            <br>
+            <label for="mail" class="ball"> E-mail:</label><br>
+            <input type="email" name="_replyto" class="mail ball2">
+
+            <br>
+            <label for="phone" class="ball">Telefon:</label><br>
+            <input type="tel" name="phone" class="phone ball2">
+
+            <br>
+            <label for="city" class="ball"> Wybierz miasto:</label><br>
+                <select name="city" class="city ball2">
+                    <option value="krakow">Kraków</option>
+                    <option value="warszawa">Warszawa</option>
+                    <option value="gdansk">Gdańsk</option>
+                </select>
+
+            <br>
+      	    <p id="all">Wybierz płeć:</p>
+            <input type="radio" name="gender" value="male" class="male ball"><label for="male" class="ball">Mężczyzna</label>
+            <br>
+            <input type="radio" name="gender" value="female" class="female ball"><label for="female" class="ball">Kobieta</label>
+            <br>
+
+            <br>
+            <label for="message" class="ball"> Wiadomość:</label><br>
+            <textarea name="message" class="message ball2"></textarea>
+            <br>
+            <input type="checkbox" class="agreement ball" name="agreement">
+            <label for="agreement" class="ball">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+            <br>
+            <input type="submit" class="submit ball2" value="Send">
+        </form>
+</body>
+
+</html>
