@@ -8,24 +8,97 @@
     color: white;
 }
 
-
-.ball{
+#name{
+    background-color: #2b4a64;
     position: relative; left: 15px;
 }
 
-.ball2{
+#name1{
+    position: relative; left: 15px;
+}
+
+#lastname{
     background-color: #2b4a64;
+    position: relative; left: 15px;
+} 
+
+#lastname1{
+    position: relative; left: 15px;
+}
+
+#mail{
+    background-color: #2b4a64;
+    position: relative; left: 15px;
+}
+
+#mail1{
+    position: relative; left: 15px;
+}
+
+#phone{
+    background-color: #2b4a64;
+    position: relative; left: 15px;
+}
+
+#phone1{
+    position: relative; left: 15px;
+}
+
+#city{
+    background-color: #2b4a64;
+    position: relative; left: 15px;
+}
+
+#city1{
+    position: relative; left: 15px;
+}
+
+#male{
+    position: relative; left: 15px;
+}
+
+#male1{
+    position: relative; left: 15px;
+}
+
+#female{
+    position: relative; left: 15px;
+}
+
+#female1{
+    position: relative; left: 15px;
+}
+
+#message{
+    background-color: #2b4a64;
+    position: relative; left: 15px;
+}
+
+#message1{ 
+    position: relative; left: 15px;
+}
+
+#agreement{
+    position: relative; left: 15px;
+}
+
+#checkbox{
+    position: relative; left: 15px;
+}
+
+#submit{
+    width: 75px;
+    height: 45px;
+    background-color: green;
+    font-weight: bolder;
+    position: relative; left: 15px;
+}
+
+#ball{
     position: relative; left: 15px;
 }
 
 :focus{
 background-color: #4e708c;
 border-color: white;
-}
-
-.submit{
-    width: 75px;
-    height: 45px;
-    background-color: green;
-    font-weight: bolder;
 }

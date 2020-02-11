@@ -11,45 +11,44 @@
    
     <!-- Zadanie domowe zrob z wykorzystaniem serwisu https://formspree.io -->
         <form action="https://formspree.io/mrgqylbz" class="background" method="POST">
-            <label for="name" class="ball">Imię:</label><br>
-            <input type="text" name="name" class="name ball2">
+            <label for="name" id="name1">Imię:</label><br>
+            <input type="text" name="name" id="name">
 
             <br>
-            <label for="lastname" class="ball"> Nazwisko:</label><br>
-            <input type="text" name="lastname" class="lastname ball2">
+            <label for="lastname" id="lastname1"> Nazwisko:</label><br>
+            <input type="text" name="lastname" id="lastname">
 
             <br>
-            <label for="mail" class="ball"> E-mail:</label><br>
-            <input type="email" name="_replyto" class="mail ball2">
+            <label for="mail" id="mail1"> E-mail:</label><br>
+            <input type="email" name="_replyto" id="mail">
 
             <br>
-            <label for="phone" class="ball">Telefon:</label><br>
-            <input type="tel" name="phone" class="phone ball2">
+            <label for="phone" id="phone1">Telefon:</label><br>
+            <input type="tel" name="phone" id="phone">
 
             <br>
-            <label for="city" class="ball"> Wybierz miasto:</label><br>
-                <select name="city" class="city ball2">
+            <label for="city" id="city1"> Wybierz miasto:</label><br>
+                <select name="city" id="city">
                     <option value="krakow">Kraków</option>
                     <option value="warszawa">Warszawa</option>
                     <option value="gdansk">Gdańsk</option>
                 </select>
 
             <br>
-      	    <p id="all">Wybierz płeć:</p>
-            <input type="radio" name="gender" value="male" class="male ball"><label for="male" class="ball">Mężczyzna</label>
+              <p id="ball">Wybierz płeć:</p>
+            <input type="radio" name="gender" value="male" id="male"><label for="male" id="male1">Mężczyzna</label>
             <br>
-            <input type="radio" name="gender" value="female" class="female ball"><label for="female" class="ball">Kobieta</label>
+            <input type="radio" name="gender" value="female" id="female"><label for="female" id="female1">Kobieta</label>
             <br>
 
             <br>
-            <label for="message" class="ball"> Wiadomość:</label><br>
-            <textarea name="message" class="message ball2"></textarea>
+            <label for="message" id="message1"> Wiadomość:</label><br>
+            <textarea name="message" id="message"></textarea>
             <br>
-            <input type="checkbox" class="agreement ball" name="agreement">
-            <label for="agreement" class="ball">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+            <input type="checkbox" id="agreement" name="agreement">
+            <label for="agreement" id="checkbox">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
             <br>
-            <input type="submit" class="submit ball2" value="Send">
+            <input type="submit" id="submit" value="Send">
         </form>
 </body>
-
 </html>
