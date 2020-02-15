@@ -1,0 +1,44 @@
+/*make a tips for u dummy*/
+
+#gallery {
+	width: 80%;
+}
+
+figure {
+	width: 33%;
+}
+
+/*Start big screen media queries*/
+@media screen and (min-width: 993px) {
+	#gallery {
+		width: 90%;
+	}
+}
+/*end*/
+
+/*Start mid screen media queries*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	figure {
+		width: 49%;
+	}
+}
+/*end*/
+
+/*Start mobile media queries*/
+@media screen and (min-width: 481px) and (max-width: 768px) {	
+	figure {
+		width: 100%;
+	}
+}
+/*end*/
+
+/*start small mobile media queries*/
+@media screen and (max-width: 480px) {	
+	#gallery {
+		width: 100%;
+	}	
+	figure {
+		width: 100%;
+	}
+}
+/*end*/
