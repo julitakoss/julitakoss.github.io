@@ -1,0 +1,15 @@
+
+
+body{
+    font-size: 0;
+}
+
+.box{
+    font-size: 16px;
+    height: 300;
+    width: 50%;
+    float: left;
+    background-color: plum;
+    border: 10px solid fuchsia;
+    padding: 40px;
+}
