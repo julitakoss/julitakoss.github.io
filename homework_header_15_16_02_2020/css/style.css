@@ -1,0 +1,35 @@
+* {padding:0;margin:0;}
+
+html {width:100%;height:100%;}
+body {font-family:Arial, Helvetica, Sans-serif;font-size:14px;line-height:1.5;font-weight:400;columns: #000000;background:#FFF;}
+/*nie wiem jak pozbyć się białego paska pod grafiką przy pierwszej rozdzielczości*/
+.container {margin:0 auto;}
+
+header {margin:0 0;}
+header img {width:100%;}
+
+
+#main {float: left; font-weight: bold; color: black;}
+
+
+
+/*1st queries-  powyżej 1170px - tekst nagłówkowy wyrównany horyzontalnie do 
+lewej i wertykalnie do środka - obrazek na pełną wysokość okna przeglądarki*/
+@media (min-width: 1171px) {
+	.container {width:100%;}
+	#main {width:65%; position: relative; left: 50px; top: -250px;}
+	/*chyba dobrze wystylizowany tekst*/
+}
+/*second queries - pomiędzy 992px a 1170px - tekst nagłówkowy wyrównany
+ do prawego górnego rogu - obrazek na 70 procent wysokość okna przeglądarki*/
+@media (max-width: 1170px) and (min-width: 992px) {
+	.container {width: 70%;}
+	#main {width:65%; position:absolute; top:0; text-align: right;}
+	/*nie mam pojęcia jak wstawić obrazek*/
+}
+/*3rd queries- poniżej 992px - tekst pod obrazkiem - obrazek na połowę wysokość okna przeglądarki*/
+@media (max-width: 991px) {
+	.container {width: 100%;}
+	#main {width:65%; position: relative; left: 87px; text-align: center;  }
+
+}
