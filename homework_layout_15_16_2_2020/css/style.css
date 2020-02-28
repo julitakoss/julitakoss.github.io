@@ -1,98 +1,42 @@
-* {
-	padding:0;
-	margin:0; 
-	align-content: stretch;
+body {
+    padding: 2em;
+    color: white;
 }
 
-html {
-	width:100%;
-	height:100%;
+#container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-body {font-family:Arial, Helvetica, Sans-serif;
-	font-size:14px;
-	line-height:1.5;
-	font-weight:400;
-	color:#FFF;
-	background:#FFF;
+#container > * {
+    padding: 5px;
 }
 
-.parent{
-	text-align: center;
+.header {
+    background: red;
 }
 
-header{
-	background-color: red;
-	width: 100%;
-	overflow: hidden;
+.article {
+    background: darkblue;
+    text-align: center;
 }
 
-.container {
-	text-align: center;
-	display: flex;
-	flex-wrap: nowrap; 
-	overflow: hidden;
-	text-overflow: ellipsis;
-	width: 100%;
-	background-color: black;
- }
-
-.content_all{
-	width: 34%;
-	height: 200px;
+p,
+.aside {
+    margin: 0px;
 }
 
-.content_left {
-	background-color: green;
+.asideLeft {
+    background: darkgreen;
 }
 
-.content_center{
-	background-color: lightblue;
-
+.asideRight {
+    background: pink;
 }
 
-.content_right{
-	background-color: pink;
-}
-
-footer{
-	background-color: purple;
-	width: 100%;
-}
-
-@media (min-width: 933px){
-	.parent{
-		width: 100%;
-	}
-	.container {
-		width:100%;
-	}
-}
-
-@media (max-width: 922px) and (min-width: 768px) {
-	.container {
-		width:718px;
-	}
-	/*na dół*/
-	.content_left {
-		width:30%; 
-		clear: both;
-	}
-	.content_center {
-		width: 30%;
-	}
-
-}
-@media (max-width: 767px){
-	.container {
-		width:750px; 
-		flex-direction: column;
-	}
-	.content_all{	
-		text-align: center;
-		padding-left: 100px;
-		margin-left: 350px;
-		width: 50%;
-		left: center;
-	}
+.footer {
+    background: purple;
 }

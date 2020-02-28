@@ -1,30 +1,38 @@
-<!DOCTYPE HTML> 
-<html lang='pl'> 
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-	<title>Strona RWD</title>
-	<link rel='stylesheet' href='css/style.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-Flex-box</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
-	<section class="parent">
-		<header>HEADER</header>
-		<div class="container">
-	
-			<div class="content_all content_left">
-		  		<p>A side left</p>
-			</div>
 
-			<div class="content_all content_center">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam assumenda voluptas fugiat distinctio minima eligendi sequi repellat architecto explicabo cupiditate omnis perspiciatis sit eveniet error debitis iure illum, dolores corporis?</p>
-			</div>
+    <div id="container">
+        <header class="header">
+            <p>Header</p>
+        </header>
 
-			<div class="content_all content_right">
-				<p>A side right</p>
-			</div>
+        <article class="article">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, consequuntur. A recusandae unde praesentium quia natus adipisci velit, temporibus inventore modi. Accusamus in velit provident aliquid animi explicabo quidem dolorem.</p>
+        </article>
 
-		</div>
-		<footer>FOOTER</footer>
-	</section>
+        <aside class="aside asideLeft"><p>Aside left</p></aside>
+
+        <aside class="aside asideRight"><p>Aside right</p></aside>
+
+        <footer class="footer">
+            <p>Footer</p>
+        </footer>
+    </div>
+
 </body>
+
 </html>
