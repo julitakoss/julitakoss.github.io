@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -13,7 +13,6 @@ body {
     height: 100vh;
     background-image: url(../images/more1770pxless992px.jpg);
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
 }
 
@@ -44,11 +43,11 @@ body h1 span {
 @media (max-width: 1170px) {
 
     #background {
-        background-image: url("../images/992rangePX1770.jpg");
+        background-image: url(../images/992rangePX1770.jpg);
         margin-top: auto;
         height: 70vh;
-        min-height: 700px;
-        background-size: contain;
+        width: auto;
+        background-size: cover;
         background-position: top;
     }
 
@@ -71,7 +70,7 @@ body h1 span {
 
     #background {
         background-image: url(../images/more1770pxless992px.jpg);
-        background-size: auto cover;
+        background-size: cover;
         margin-top: auto;
     }
 
@@ -92,10 +91,10 @@ body h1 span {
     }
 
     h1#display-out {
-        height: 50hv;
+        height: 50vh;
         padding-top: 40px;
         width: auto;
-        margin: 600px 0;
+        margin-top: 55vh;
         text-align: center;
         display: flex;
         flex-direction: column;
