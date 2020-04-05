@@ -1,0 +1,45 @@
+p{
+    color: grey;
+}
+
+.list-item{
+    color: red;
+}
+#about{
+    background-color: pink;
+}
+
+/*selektor potomstwa całego potomstwa*/
+#about p{
+    color: lime;
+}
+
+
+/*bezpośrednie potomstwo  oznaczamy -> " > " ze znacznika*/
+#about > p{
+    color: blue;
+}
+/*selektory rodzeństwa pierwszy element rodzeństwa*/
+.first+li{
+    color: orange;
+}
+/*wszystkie elementy po klasie item*/
+.list-item ~ li{
+    color: blue;
+}
+/*selektor uniwersalny*/
+
+*{
+    font-size: 1.5em;
+}
+
+/*selektor łączony, wszystkie elementy ul o klasie list bedą żółte*/
+ul.list{
+    background-color: yellow;
+}
+
+/*Wszystkie znaczniki a z klasą link, które są elementami potomnymi paragrafów (bez względu na poziom zagnieżdżenia). A paragrafy są bezpośrednimi elementami potomnymi elementów, które mają równocześnie klasę item i klasę first-item
+.item.first-item > p.a.link{
+
+} */
+

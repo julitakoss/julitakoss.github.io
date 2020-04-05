@@ -1,0 +1,10 @@
+/*nadaj wygląd wszystkim inputom o atrybucie name*/
+input[name{
+    background-color: tomato;
+}
+
+/*input o konkretnej wartości*/
+input[type="submit"]{
+    background: yellow;
+}
+

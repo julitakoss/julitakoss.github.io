@@ -1,0 +1,53 @@
+button{
+    background-color: orange;
+    color: #ffffff;
+    border: 2px solid #0000ff
+}
+
+button:hover{
+    background-color: yellow;
+}
+
+.text-input{
+    background-color: lightblue;
+    border:  green 2px solid;
+}
+
+.text-input:focus{
+    border: 2px solid cornflowerblue;
+}
+
+.list-item:first-child{
+    color: brown;
+}
+.list-item:last-child{
+    color: blue;
+
+}
+/*gdy chce wyciagnąć 6 element*/
+.list-item:nth-of-type(6){
+    background-color: lawngreen;
+}
+
+/*co drugi element
+.list-item:nth-of-type(odd){
+    background-color: lightpink;
+
+} */
+
+/*co trzeci element*/
+.list-item.list-item:nth-of-type(3n){
+    background-color: lightpink;
+
+}
+
+/*zacznij od pierwszego kolorowować co trzeci element*/
+.list-item:nth-of-type(3n+1){
+
+}
+
+/*nth-child znajdz drugie dziecko, które równocześnie jest dzieckiem, gdy zmienimy na 'type' będzie znajdź drugie dziecko które jest jest TYPEM paragraf*/
+section p:nth-child(2){
+    background-color: darkorange;
+}
+
