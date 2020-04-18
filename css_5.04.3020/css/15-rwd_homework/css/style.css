@@ -13,14 +13,14 @@ h2 {
 }
 
 #gallery {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
 
 figure {
 	display: inline-block;
-	width: 33%;
+	width: 100%;
 	margin: 0;
 	margin-bottom: 10px;
 }
@@ -34,51 +34,47 @@ figure img{
 	border: 2px solid #444;
 }
 
-
-
-
-/*                                       start media                                       */                         
-
-
-#gallery {
-	width: 80%;
-}
-
-figure {
-	width: 33%;
-}
-
-/*Start big screen media queries*/
-@media screen and (min-width: 993px) {
-	#gallery {
+@media (min-width: 480px){
+	#gallery{
 		width: 90%;
 	}
 }
-/*end*/
+@media (min-width: 768px){
+	figure{
+		width: 49%;
+	}
+}
 
-/*Start mid screen media queries*/
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 992px){
+	figure{
+		width: 33%;
+	}
+}
+
+
+
+
+
+/*
+@media (min-width: 992px) {
 	figure {
 		width: 49%;
 	}
 }
-/*end*/
 
-/*Start mobile media queries*/
-@media screen and (min-width: 481px) and (max-width: 768px) {	
+
+
+@media (max-width: 768px) {
 	figure {
 		width: 100%;
 	}
 }
-/*end*/
 
-/*start small mobile media queries*/
-@media screen and (max-width: 480px) {	
+
+@media (min-width: 480px) {	
 	#gallery {
 		width: 100%;
-	}	
-	figure {
-		width: 100%;
 	}
 }
-/*end*/
+*/
+
