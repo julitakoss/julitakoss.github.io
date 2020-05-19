@@ -26,9 +26,10 @@ hr {
 }
 
 .faq-btn {
-    color: #cc79b6;
+    color: orchid;
+    font-weight: bolder;
 }
 
 .faq-btn:hover {
-    color: #9d9d9d;
+    color: palevioletred;
 }
